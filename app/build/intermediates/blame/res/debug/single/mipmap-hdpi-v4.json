@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Nate/Documents/TipCalculator/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Nate/Documents/TipCalculator/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Nate/AndroidStudioProjects/TipCalculator/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Nate/AndroidStudioProjects/TipCalculator/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Nate/Downloads/TipCalculator/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Nate/Downloads/TipCalculator/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

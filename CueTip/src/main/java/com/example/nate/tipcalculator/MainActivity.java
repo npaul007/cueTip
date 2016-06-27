@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
         setTitle("CueTip");
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8527658187956762/8280463333\n");
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544/6300978111\n");
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

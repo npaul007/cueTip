@@ -55,7 +55,7 @@
                 android:layout_height="match_parent" >
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tip Percentage"
@@ -77,7 +77,7 @@
                     android:layout_marginBottom="20px" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1%"
@@ -94,7 +94,7 @@
                 android:layout_height="match_parent" >
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Split Bill"
@@ -108,14 +108,14 @@
                 android:layout_marginBottom="20px">
 
                 <SeekBar
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/sbSplit"
                     android:layout_column="11"
                     android:indeterminate="false" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
@@ -234,7 +234,7 @@
             android:weightSum="1">
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="1"
                 android:id="@+id/button1"
@@ -249,10 +249,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="2"
                 android:id="@+id/button2"
@@ -267,10 +268,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="3"
                 android:id="@+id/button3"
@@ -285,10 +287,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="4"
                 android:id="@+id/button4"
@@ -303,7 +306,8 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
         </LinearLayout>
 
@@ -318,7 +322,7 @@
             android:focusableInTouchMode="true">
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="5"
                 android:id="@+id/button5"
@@ -333,10 +337,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="6"
                 android:id="@+id/button6"
@@ -351,10 +356,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="7"
                 android:id="@+id/button7"
@@ -369,10 +375,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="8"
                 android:id="@+id/button8"
@@ -387,7 +394,8 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
         </LinearLayout>
 
@@ -399,7 +407,7 @@
             android:weightSum="1">
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="9"
                 android:id="@+id/button9"
@@ -414,10 +422,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="0"
                 android:id="@+id/button0"
@@ -432,10 +441,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="."
                 android:id="@+id/dp"
@@ -450,10 +460,11 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
             <Button
-                android:layout_width="70dp"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="CLEAR"
                 android:id="@+id/clear"
@@ -468,12 +479,13 @@
                 android:clickable="true"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:layout_weight=".25" />
 
         </LinearLayout>
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"

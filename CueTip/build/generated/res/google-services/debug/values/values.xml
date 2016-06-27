@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">911767582085-8lrg6t6glpq9pkfajp83a6ti9htss5fu.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cuetip-b1e43.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">911767582085</string>
+    <string name="google_api_key" translatable="false">AIzaSyCIbQWen09lkPzk-ztmLCsGfUrBiQSnOnw</string>
+    <string name="google_app_id" translatable="false">1:911767582085:android:3ec4f42253600fde</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCIbQWen09lkPzk-ztmLCsGfUrBiQSnOnw</string>
+    <string name="google_storage_bucket" translatable="false">cuetip-b1e43.appspot.com</string>
+</resources>

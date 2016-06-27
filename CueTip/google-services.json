@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "911767582085",
+    "firebase_url": "https://cuetip-b1e43.firebaseio.com",
+    "project_id": "cuetip-b1e43",
+    "storage_bucket": "cuetip-b1e43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911767582085:android:3ec4f42253600fde",
+        "android_client_info": {
+          "package_name": "com.example.nate.tipcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911767582085-8lrg6t6glpq9pkfajp83a6ti9htss5fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbQWen09lkPzk-ztmLCsGfUrBiQSnOnw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

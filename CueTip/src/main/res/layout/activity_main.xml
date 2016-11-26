@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nate.tipcalculator.MainActivity">
+    tools:context="cuetip.example.nate.cuetip.MainActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -25,15 +25,14 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.12">
+            android:layout_gravity="center_horizontal">
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:ems="10"
@@ -76,7 +75,7 @@
                     android:layout_column="11"
                     android:indeterminate="false"
                     android:layout_marginTop="8dp"
-                    android:layout_weight=".2" />
+                    android:layout_weight="1" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -85,7 +84,8 @@
                     android:text="1%"
                     android:id="@+id/tvTip"
                     android:layout_column="13"
-                    android:layout_marginTop="8dp" />
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0" />
             </TableRow>
 
             <TableRow
@@ -117,7 +117,7 @@
                     android:layout_column="11"
                     android:indeterminate="false"
                     android:layout_marginTop="8dp"
-                    android:layout_weight=".2" />
+                    android:layout_weight="1" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -126,7 +126,8 @@
                     android:text="1"
                     android:id="@+id/tvSplit"
                     android:layout_column="13"
-                    android:layout_marginTop="8dp" />
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0" />
             </TableRow>
 
             <TableRow
@@ -140,7 +141,7 @@
                     android:text="Total Bill"
                     android:id="@+id/textView15"
                     android:layout_column="11"
-                    android:layout_marginTop="1dp"
+                    android:layout_marginTop="2dp"
                     android:layout_marginLeft="4dp" />
 
                 <TextView
@@ -150,7 +151,8 @@
                     android:text="$0.00"
                     android:id="@+id/tvTotalToPay"
                     android:layout_column="13"
-                    android:layout_marginTop="1dp" />
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp" />
             </TableRow>
 
             <TableRow
@@ -172,7 +174,8 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="$0.00"
                     android:id="@+id/tvTotalTip"
-                    android:layout_column="13" />
+                    android:layout_column="13"
+                    android:layout_marginLeft="20dp" />
             </TableRow>
 
             <TableRow
@@ -194,7 +197,8 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="$0.00"
                     android:id="@+id/tvPerPerson"
-                    android:layout_column="13" />
+                    android:layout_column="13"
+                    android:layout_marginLeft="20dp" />
             </TableRow>
 
             <TableRow
@@ -218,8 +222,8 @@
                     android:text="Tip Per Person"
                     android:id="@+id/textView2"
                     android:layout_column="11"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginLeft="4dp" />
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginBottom="3dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -228,7 +232,8 @@
                     android:text="$0.00"
                     android:id="@+id/tvTipPerPerson"
                     android:layout_column="13"
-                    android:layout_marginBottom="2dp" />
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="3dp" />
             </TableRow>
         </TableLayout>
 
@@ -248,7 +253,7 @@
             android:weightSum="1">
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="1"
                 android:id="@+id/button1"
@@ -267,7 +272,7 @@
                 android:layout_weight=".25" />
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="2"
                 android:id="@+id/button2"
@@ -286,29 +291,10 @@
                 android:layout_weight=".25" />
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="3"
                 android:id="@+id/button3"
-                android:textSize="18dp"
-                android:height="20px"
-                android:textColor="#fff"
-                android:background="#17be9d"
-                android:typeface="sans"
-                android:layout_margin="5dp"
-                android:width="100px"
-                android:textStyle="normal|bold"
-                android:clickable="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:padding="4dp"
-                android:layout_weight=".25" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="4"
-                android:id="@+id/button4"
                 android:textSize="18dp"
                 android:height="20px"
                 android:textColor="#fff"
@@ -336,7 +322,26 @@
             android:focusableInTouchMode="true">
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="4"
+                android:id="@+id/button4"
+                android:textSize="18dp"
+                android:height="20px"
+                android:textColor="#fff"
+                android:background="#17be9d"
+                android:typeface="sans"
+                android:layout_margin="5dp"
+                android:width="100px"
+                android:textStyle="normal|bold"
+                android:clickable="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="4dp"
+                android:layout_weight=".25" />
+
+            <Button
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="5"
                 android:id="@+id/button5"
@@ -355,48 +360,10 @@
                 android:layout_weight=".25" />
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="6"
                 android:id="@+id/button6"
-                android:textSize="18dp"
-                android:height="20px"
-                android:textColor="#fff"
-                android:background="#17be9d"
-                android:typeface="sans"
-                android:layout_margin="5dp"
-                android:width="100px"
-                android:textStyle="normal|bold"
-                android:clickable="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:padding="4dp"
-                android:layout_weight=".25" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="7"
-                android:id="@+id/button7"
-                android:textSize="18dp"
-                android:height="20px"
-                android:textColor="#fff"
-                android:background="#17be9d"
-                android:typeface="sans"
-                android:layout_margin="5dp"
-                android:width="100px"
-                android:textStyle="normal|bold"
-                android:clickable="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:padding="4dp"
-                android:layout_weight=".25" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="8"
-                android:id="@+id/button8"
                 android:textSize="18dp"
                 android:height="20px"
                 android:textColor="#fff"
@@ -421,7 +388,45 @@
             android:weightSum="1">
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="7"
+                android:id="@+id/button7"
+                android:textSize="18dp"
+                android:height="20px"
+                android:textColor="#fff"
+                android:background="#17be9d"
+                android:typeface="sans"
+                android:layout_margin="5dp"
+                android:width="100px"
+                android:textStyle="normal|bold"
+                android:clickable="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="4dp"
+                android:layout_weight=".25" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="8"
+                android:id="@+id/button8"
+                android:textSize="18dp"
+                android:height="20px"
+                android:textColor="#fff"
+                android:background="#17be9d"
+                android:typeface="sans"
+                android:layout_margin="5dp"
+                android:width="100px"
+                android:textStyle="normal|bold"
+                android:clickable="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="4dp"
+                android:layout_weight=".25" />
+
+            <Button
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="9"
                 android:id="@+id/button9"
@@ -439,27 +444,15 @@
                 android:padding="4dp"
                 android:layout_weight=".25" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="0"
-                android:id="@+id/button0"
-                android:textSize="18dp"
-                android:height="20px"
-                android:textColor="#fff"
-                android:background="#17be9d"
-                android:typeface="sans"
-                android:layout_margin="5dp"
-                android:width="100px"
-                android:textStyle="normal|bold"
-                android:clickable="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:padding="4dp"
-                android:layout_weight=".25" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:text="."
                 android:id="@+id/dp"
@@ -478,9 +471,9 @@
                 android:layout_weight=".25" />
 
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:text="CLEAR"
+                android:text="DEL"
                 android:id="@+id/clear"
                 android:textSize="18dp"
                 android:height="20px"
@@ -496,17 +489,36 @@
                 android:padding="4dp"
                 android:layout_weight=".25" />
 
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="0"
+                android:id="@+id/button0"
+                android:textSize="18dp"
+                android:height="20px"
+                android:textColor="#fff"
+                android:background="#17be9d"
+                android:typeface="sans"
+                android:layout_margin="5dp"
+                android:width="100px"
+                android:textStyle="normal|bold"
+                android:clickable="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="4dp"
+                android:layout_weight=".25" />
+
         </LinearLayout>
+
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             ads:adSize="BANNER"
             ads:adUnitId="@string/banner_ad_unit_id"
-            android:layout_marginTop="8dp"
-            android:layout_weight=".05">
+            android:layout_marginTop="8dp">
         </com.google.android.gms.ads.AdView>
     </LinearLayout>
 </RelativeLayout>

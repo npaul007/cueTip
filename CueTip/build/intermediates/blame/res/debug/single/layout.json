@@ -104,12 +104,12 @@
         "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
-    },
-    {
         "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",

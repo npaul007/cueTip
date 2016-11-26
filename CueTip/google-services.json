@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:911767582085:android:3ec4f42253600fde",
         "android_client_info": {
-          "package_name": "com.example.nate.tipcalculator"
+          "package_name": "cuetip.example.nate.cuetip"
         }
       },
       "oauth_client": [

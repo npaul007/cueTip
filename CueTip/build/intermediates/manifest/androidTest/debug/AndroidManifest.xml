@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.nate.tipcalculator.test">
+    package="cuetip.example.nate.cuetip.test">
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.nate.tipcalculator"
+                     android:targetPackage="cuetip.example.nate.cuetip"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.nate.tipcalculator"/>
+                     android:label="Tests for cuetip.example.nate.cuetip"/>
 </manifest>

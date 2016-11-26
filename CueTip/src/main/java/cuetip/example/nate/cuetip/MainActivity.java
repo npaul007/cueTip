@@ -221,38 +221,35 @@ public class MainActivity extends AppCompatActivity{
         });
     }
 
-    public void checkTxtTotalBillLength(EditText txtTotalBill){
-        if (txtTotalBill.getText().toString().length() < 1) {
-            return;
-        }
-    }
-
     public void processTotalAndTip(int progress , EditText txtTotalBill, TextView tvTotalTip, TipCalculator tp, TextView tvTotalToPay){
-        checkTxtTotalBillLength(txtTotalBill);
+       if(checkTxtTotalBillIfEmpty(txtTotalBill)){
+           double totalToPay = Double.parseDouble(txtTotalBill.getText().toString());
+           double tip = tp.getTip(progress, totalToPay);
 
-        double totalToPay = Double.parseDouble(txtTotalBill.getText().toString());
-        double tip = tp.getTip(progress, totalToPay);
+           tvTotalTip.setText("$" + (String.format("%.2f", tip)));
 
-        tvTotalTip.setText("$" + (String.format("%.2f", tip)));
+           totalToPay = tp.getTotalToPay(progress, totalToPay);
+           total = totalToPay;
 
-        totalToPay = tp.getTotalToPay(progress, totalToPay);
-        total = totalToPay;
-
-        tvTotalToPay.setText("$" + String.format("%.2f", totalToPay));
-
+           tvTotalToPay.setText("$" + String.format("%.2f", totalToPay));
+       }
     }
 
     public void processPerPerson(int progress, TipCalculator tp, TextView tvPerPerson, TextView tvTipPerPerson, SeekBar sbTip, EditText txtTotalBill){
-        checkTxtTotalBillLength(txtTotalBill);
+        if(checkTxtTotalBillIfEmpty(txtTotalBill)){
+            double perPerson = tp.getPerPerson(progress, total);
+            tvPerPerson.setText("$"+String.format("%.2f",perPerson));
 
-        double perPerson = tp.getPerPerson(progress, total);
-        tvPerPerson.setText("$"+String.format("%.2f",perPerson));
+            double totalToPay = Double.parseDouble(txtTotalBill.getText().toString());
+            double tip = tp.getTip(sbTip.getProgress(),totalToPay);
+            double tipSplit = tp.getTipPerPerson(progress,tip);
 
-        double totalToPay = Double.parseDouble(txtTotalBill.getText().toString());
-        double tip = tp.getTip(sbTip.getProgress(),totalToPay);
-        double tipSplit = tp.getTipPerPerson(progress,tip);
+            tvTipPerPerson.setText("$"+String.format("%.2f",tipSplit));
+        }
+    }
 
-        tvTipPerPerson.setText("$"+String.format("%.2f",tipSplit));
+    public boolean checkTxtTotalBillIfEmpty(EditText txtTotalBill){
+        return txtTotalBill.getText().length() > 0;
     }
 
 }

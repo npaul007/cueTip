@@ -198,12 +198,8 @@ public class MainActivity extends AppCompatActivity{
 
             @Override
             public void afterTextChanged(Editable s) {
-                if(txtTotalBill.getText().length() < 1){
-                    return;
-                }else{
-                    processTotalAndTip(sbTip.getProgress(), txtTotalBill, tvTotalTip, tp, tvTotalToPay);
-                    processPerPerson(sbSplit.getProgress(), tp, tvPerPerson, tvTipPerPerson, sbTip,txtTotalBill);
-                }
+                processTotalAndTip(sbTip.getProgress(), txtTotalBill, tvTotalTip, tp, tvTotalToPay);
+                processPerPerson(sbSplit.getProgress(), tp, tvPerPerson, tvTipPerPerson, sbTip,txtTotalBill);
             }
         });
     }

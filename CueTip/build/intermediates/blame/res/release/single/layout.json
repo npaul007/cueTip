@@ -144,11 +144,11 @@
         "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/release/layout/abc_search_view.xml",
-        "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/Nate/Documents/CueTip/CueTip/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
     }
 ]

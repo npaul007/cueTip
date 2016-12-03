@@ -75,7 +75,8 @@
                     android:layout_column="11"
                     android:indeterminate="false"
                     android:layout_marginTop="8dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:layout_span="2" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -148,25 +149,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="$0.00"
-                    android:id="@+id/tvTotalToPay"
+                    android:text="Total Tip"
+                    android:id="@+id/textView17"
                     android:layout_column="13"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="4dp" />
+
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Total Tip"
-                    android:id="@+id/textView17"
+                    android:text="$0.00"
+                    android:id="@+id/tvTotalToPay"
                     android:layout_column="11"
-                    android:layout_marginLeft="4dp" />
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:maxWidth="100dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -175,7 +178,14 @@
                     android:text="$0.00"
                     android:id="@+id/tvTotalTip"
                     android:layout_column="13"
-                    android:layout_marginLeft="20dp" />
+                    android:layout_marginLeft="20dp"
+                    android:maxWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
             </TableRow>
 
             <TableRow
@@ -195,19 +205,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="$0.00"
-                    android:id="@+id/tvPerPerson"
+                    android:text="Tip Per Person"
+                    android:id="@+id/textView2"
                     android:layout_column="13"
-                    android:layout_marginLeft="20dp" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"></TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginBottom="3dp" />
 
             </TableRow>
 
@@ -219,11 +221,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Tip Per Person"
-                    android:id="@+id/textView2"
+                    android:text="$0.00"
+                    android:id="@+id/tvPerPerson"
                     android:layout_column="11"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginBottom="3dp" />
+                    android:layout_marginLeft="20dp"
+                    android:maxWidth="100dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -233,7 +235,20 @@
                     android:id="@+id/tvTipPerPerson"
                     android:layout_column="13"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="3dp" />
+                    android:layout_marginBottom="3dp"
+                    android:maxWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
             </TableRow>
         </TableLayout>
 
@@ -309,6 +324,18 @@
                 android:padding="4dp"
                 android:layout_weight=".25" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1"
+            android:clickable="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
             <Button
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -327,18 +354,6 @@
                 android:focusableInTouchMode="false"
                 android:padding="4dp"
                 android:layout_weight=".25" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:weightSum="1"
-            android:clickable="false"
-            android:focusable="true"
-            android:focusableInTouchMode="true">
 
             <Button
                 android:layout_width="0dp"
@@ -378,6 +393,15 @@
                 android:padding="4dp"
                 android:layout_weight=".25" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
             <Button
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -416,15 +440,6 @@
                 android:padding="4dp"
                 android:layout_weight=".25" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:weightSum="1">
-
             <Button
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -443,6 +458,15 @@
                 android:focusableInTouchMode="false"
                 android:padding="4dp"
                 android:layout_weight=".25" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:weightSum="1" >
 
             <Button
                 android:layout_width="0dp"
@@ -502,16 +526,25 @@
                 android:layout_weight=".25" />
 
         </LinearLayout>
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adView"
-            android:layout_width="match_parent"
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="348dp"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            ads:adSize="BANNER"
-            ads:adUnitId="@string/banner_ad_unit_id"
-            android:layout_marginTop="8dp"
-            android:layout_weight=".05">
-        </com.google.android.gms.ads.AdView>
+            android:weightSum="1" >
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="326dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"
+                android:layout_marginTop="8dp"
+                android:layout_weight="0.26">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>

@@ -30,25 +30,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5d1ecf-7148-4f02-a5ff-c45f898767d1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_63c5af8a76e4618af6a1f9129e9f2b14ab6e9626.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_322d3c6c26e2f2f90733522f864d80d288847d76.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.0.2_47ad1a828ecd881cf988b5a729eda602ad15c920.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.0.2_619a9052182f84c1a6cd216b1641f8f37e6c73c5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.2_fbb9e7a810bf23f4ccf7197c5237a0655448b78c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_0978e98bc96fb81059f98a09373758538b937280.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.2_cf704a4d7d960d07cbec2bf49732fbfe8a877b38.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.2_1b4f6fe5f97630c117f2fc1ffc8c1258227b28f1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.2_367f3b394b139b8301fb151e8075743fdf7f2bfa.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.2_25c7a240d9d6c63527cc15044d7f75cae8e5b42a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.2_78424cd2bf7134187fb8a11e83e0e4190c00da75.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/debug_d2df100be745c9651f0d6bfe3af9898944418d90.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_892f689d5fa4f8b7e40713028ef18c60920c7dc5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_92088b9668c8d60834056b4143ee20cf493c0255.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-debug.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/debug/cuetip/example/nate/cuetip/BuildConfig.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/debug/cuetip/example/nate/cuetip/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/debug/cuetip/example/nate/cuetip/MainActivity.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/debug/cuetip/example/nate/cuetip/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/debug/cuetip/example/nate/cuetip/R$id.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/debug/cuetip/example/nate/cuetip/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/debug_d2df100be745c9651f0d6bfe3af9898944418d90.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/debug/debug_d2df100be745c9651f0d6bfe3af9898944418d90.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/CueTip-release.apk" afterPath="$PROJECT_DIR$/CueTip/CueTip-release.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/androidTest/debug/cuetip/example/nate/cuetip/test/BuildConfig.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/androidTest/debug/cuetip/example/nate/cuetip/test/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/release/cuetip/example/nate/cuetip/BuildConfig.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/release/cuetip/example/nate/cuetip/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/release/cuetip/example/nate/cuetip/MainActivity.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/release/cuetip/example/nate/cuetip/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/classes/release/cuetip/example/nate/cuetip/R$id.class" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/classes/release/cuetip/example/nate/cuetip/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_63c5af8a76e4618af6a1f9129e9f2b14ab6e9626.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_63c5af8a76e4618af6a1f9129e9f2b14ab6e9626.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_322d3c6c26e2f2f90733522f864d80d288847d76.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_322d3c6c26e2f2f90733522f864d80d288847d76.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.0.2_47ad1a828ecd881cf988b5a729eda602ad15c920.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.0.2_47ad1a828ecd881cf988b5a729eda602ad15c920.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.0.2_619a9052182f84c1a6cd216b1641f8f37e6c73c5.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.0.2_619a9052182f84c1a6cd216b1641f8f37e6c73c5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.0.2_fbb9e7a810bf23f4ccf7197c5237a0655448b78c.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.0.2_fbb9e7a810bf23f4ccf7197c5237a0655448b78c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.0.2_0978e98bc96fb81059f98a09373758538b937280.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.0.2_0978e98bc96fb81059f98a09373758538b937280.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.0.2_cf704a4d7d960d07cbec2bf49732fbfe8a877b38.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.0.2_cf704a4d7d960d07cbec2bf49732fbfe8a877b38.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.0.2_1b4f6fe5f97630c117f2fc1ffc8c1258227b28f1.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.0.2_1b4f6fe5f97630c117f2fc1ffc8c1258227b28f1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.0.2_367f3b394b139b8301fb151e8075743fdf7f2bfa.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.0.2_367f3b394b139b8301fb151e8075743fdf7f2bfa.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.0.2_25c7a240d9d6c63527cc15044d7f75cae8e5b42a.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.0.2_25c7a240d9d6c63527cc15044d7f75cae8e5b42a.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.0.2_78424cd2bf7134187fb8a11e83e0e4190c00da75.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.0.2_78424cd2bf7134187fb8a11e83e0e4190c00da75.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/internal_impl-23.1.1_892f689d5fa4f8b7e40713028ef18c60920c7dc5.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/internal_impl-23.1.1_892f689d5fa4f8b7e40713028ef18c60920c7dc5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/release_3e78199f8fd82a2cef69c4417d890e85c9117f7e.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/release_3e78199f8fd82a2cef69c4417d890e85c9117f7e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/support-annotations-23.1.1_92088b9668c8d60834056b4143ee20cf493c0255.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/pre-dexed/release/support-annotations-23.1.1_92088b9668c8d60834056b4143ee20cf493c0255.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-debug-unaligned.apk" afterPath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-debug.apk" afterPath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/res/resources-release.ap_" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/res/resources-release.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-release-unaligned.apk" afterPath="$PROJECT_DIR$/CueTip/build/outputs/apk/CueTip-release-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/generated/source/r/debug/cuetip/example/nate/cuetip/R.java" afterPath="$PROJECT_DIR$/CueTip/build/generated/source/r/debug/cuetip/example/nate/cuetip/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build.gradle" afterPath="$PROJECT_DIR$/CueTip/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/generated/source/buildConfig/androidTest/debug/cuetip/example/nate/cuetip/test/BuildConfig.java" afterPath="$PROJECT_DIR$/CueTip/build/generated/source/buildConfig/androidTest/debug/cuetip/example/nate/cuetip/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/generated/source/buildConfig/debug/cuetip/example/nate/cuetip/BuildConfig.java" afterPath="$PROJECT_DIR$/CueTip/build/generated/source/buildConfig/debug/cuetip/example/nate/cuetip/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/generated/source/buildConfig/release/cuetip/example/nate/cuetip/BuildConfig.java" afterPath="$PROJECT_DIR$/CueTip/build/generated/source/buildConfig/release/cuetip/example/nate/cuetip/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/generated/source/r/release/cuetip/example/nate/cuetip/R.java" afterPath="$PROJECT_DIR$/CueTip/build/generated/source/r/release/cuetip/example/nate/cuetip/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/release/single/color.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/release/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/release/single/layout.json" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/blame/res/release/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/res/merged/release/layout/activity_main.xml" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/res/merged/release/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/intermediates/symbols/release/R.txt" afterPath="$PROJECT_DIR$/CueTip/build/intermediates/symbols/release/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/build/outputs/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/CueTip/build/outputs/lint-results-release-fatal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java" afterPath="$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/CueTip/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="CueTip.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,14 +152,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36915886">
-              <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.04784689">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +178,7 @@
         <entry file="file://$PROJECT_DIR$/CueTip/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -1430,7 +1493,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4401584021000" />
+        <entry key="$PROJECT_DIR$" value="4413256981000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1806,11 +1869,11 @@
         <option value="$PROJECT_DIR$/CueTip/src/main/java/com/myapp/nate/cuetip/MainActivity.java" />
         <option value="$PROJECT_DIR$/CueTip/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/CueTip/google-services.json" />
-        <option value="$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/TipCalculator.java" />
-        <option value="$PROJECT_DIR$/CueTip/build.gradle" />
         <option value="$PROJECT_DIR$/CueTip/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/CueTip/build.gradle" />
         <option value="$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java" />
+        <option value="$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -2021,6 +2084,12 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scratches">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -2243,12 +2312,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
-      <pane id="AndroidView">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -2598,12 +2661,12 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27903682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27903682" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36685553" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35410765" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36685553" sideWeight="0.5048465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35410765" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24220963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2776204" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
@@ -2645,6 +2708,80 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/TipCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="463" column="8" selection-start-line="463" selection-start-column="8" selection-end-line="463" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/TipCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="463" column="8" selection-start-line="463" selection-start-column="8" selection-end-line="463" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/TipCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2871,14 +3008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04784689">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CueTip/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2890,15 +3019,7 @@
     <entry file="file://$PROJECT_DIR$/CueTip/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/TipCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2914,13 +3035,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/TipCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CueTip/src/main/java/cuetip/example/nate/cuetip/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36915886">
-          <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CueTip/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04784689">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
